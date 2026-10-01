@@ -16,39 +16,40 @@
       </actor>
     </actors>
   </pelicula>
-  <pelicula ID="P02">
-    <titol>Societat Morta</titol>
-    <any>1989</any>
-    <genere>Drama</genere>
-    <durada>128</durada>
-    <actors>
-      <actor>
-        <nom>Robin</nom>
-        <cognom>Williams</cognom>
-      </actor>
-    <actor>
-      <nom>Ethan</nom>
-      <cognom>Hawke</cognom>
-    </actor>
-     <actor>
-      <nom>Robert</nom>
-      <cognom>Sean Leonard</cognom>
-    </actor>
-    </actors>
+    <pelicula ID="P02">
+      <titol>Societat Morta</titol>
+      <any>1989</any>
+      <genere>Drama</genere>
+      <durada unitat="min">128</durada>
+      <actors>
+          <actor>
+            <nom>Robin</nom>
+            <cognom>Williams</cognom>
+        </actor>
+        <actor>
+          <nom>Ethan</nom>
+          <cognom>Hawke</cognom>
+        </actor>
+        <actor>
+         <nom>Robert</nom>
+          <cognom>Sean Leonard</cognom>
+        </actor>
+        </actors>
+        </pelicula>
     <pelicula ID="P03">
-    <titol>Interstellar</titol>
-    <any>2014</any>
-    <genere>Ciència ficció</genere>
-    <durada>169</durada>
-    <actors>
+      <titol>Interstellar</titol>
+      <any>2014</any>
+      <genere>Ciència ficció</genere>
+      <durada unitat="min">169</durada>
+      <actors>
       <actor>
         <nom>Matthew</nom>
         <cognom>McConaughay</cognom>
       </actor>
-    <actor>
-      <nom>Anne</nom>
-      <cognom>Hathaway</cognom>
-    </actor>
+        <actor>
+          <nom>Anne</nom>
+          <cognom>Hathaway</cognom>
+      </actor>
     </actors>
   </pelicula>
 </cataleg>

@@ -1,18 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <animals>
-<nom>Tauró blanc</nom>
-<tipus>Peix</tipus>
-<habitat>Oceànic</habitat>
-<grandaria longitud="metres">6,4</grandaria>
-
-
-
-
-
-
-
-
-
-
-
+    <animal ID="01">
+      <nom>Tauró blanc</nom>
+      <tipus>Peix</tipus>
+     <habitat>Oceànic</habitat>
+     <grandaria longitud="metres">6,4</grandaria>
+      <pes unitat="kg">1900</pes>
+      <caracteristiques>
+        <caracteristica>Depredador superior</caracteristica>
+        <caracteristica>Temut als oceans per la seva grandària i ferocitat</caracteristica>
+        </caracteristiques>
+    </animal>
+    <animal ID="02">
+      <nom>Balena blava</nom>
+      <tipus>Mamífer marí</tipus>
+      <habitat>Oceànic</habitat>
+      <grandaria longitud="metres">30</grandaria>
+      <pes unitat="kg">200,000</pes>
+      <caracteristiques>
+        <caracteristica>L'animal més gran del planeta</caracteristica>
+        <caracteristica>S'alimenta principalment de krill</caracteristica>
+      </caracteristiques>
+    </animal>
+    <animal ID="03">
+      <nom>Tortuga verda</nom>
+      <tipus>Rèptil</tipus>
+      <habitat>Marí</habitat>
+      <grandaria longitud="metres">1,5</grandaria>
+      <pes unitat="kg">150</pes>
+      <caracteristiques>
+        <caracteristica>S'alimenta principalment d'algues marines</caracteristica>
+        <caracteristica>Realitza migracions de milers de quilòmetres</caracteristica>
+      </caracteristiques>
+    </animal>
 </animals>
