@@ -1,0 +1,54 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "nom": "Tauró blanc",
+      "tipus": "Peix",
+      "habitat": "Oceànic",
+      "grandara": [
+        {
+          "longitut": "6.4m",
+          "pes": "1900kg"
+        }
+      ],
+      "caracteristiques": [
+        "Depredador superior",
+        "Temut als oceans per la seva grandària i ferocitat"
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Balena blava",
+      "tipus": "Mamífer marí",
+      "habitat": "Oceànic",
+      "garndaria": [
+        {
+          "longitut": "30m",
+          "pes": "200,000kg"
+        }
+      ],
+      "estat de conservacio": "En perill crític",
+      "caracteristiques": [
+        "L'animal més gran del planeta",
+        "S'alimenta principalment de krill"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Tortuga verda",
+      "tipus": "Rèptil",
+      "habitat": "Marí",
+      "grandaria": [
+        {
+          "longitut": "1.5m",
+          "pes": "150kg"
+        }
+      ],
+      "estat de conservacio": "Vulnerable",
+      "caracteristiques": [
+        "S'alimenta principalment d'algues marines",
+        "Realitza migracions de milers de quilòmetres"
+      ]
+    }
+  ]
+}

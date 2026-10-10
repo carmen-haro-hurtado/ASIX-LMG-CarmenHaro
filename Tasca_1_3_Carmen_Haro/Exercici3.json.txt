@@ -1,0 +1,25 @@
+{
+  "productes": [
+    {
+      "id": 1,
+      "nom": "E-Bike X",
+      "tipus": "Bicicleta",
+      "autonomia": "120km",
+      "preu": "1,299€"
+    },
+    {
+      "id": 2,
+      "nom": "city-Scoot",
+      "tipus": "Patinet",
+      "autonomia": "45km",
+      "preu": "549€"
+    },
+    {
+      "id": 3,
+      "nom": "Eco-Car Z",
+      "tipu": "cotxe",
+      "autonomia": "410km",
+      "preu": "31,990€"
+    }
+  ]
+}

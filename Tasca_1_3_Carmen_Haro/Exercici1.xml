@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tornei>
+  <nom>Lliga local de Pàdel 2025</nom>
+  <temporada>2025</temporada>
+  <equips>
+    <equip ID="10">
+      <nom>Raquetes blaves</nom>
+      <jugadors>
+        <jugador dorsal="1">
+         <nom>Carles</nom>
+          <cognom>Vidal</cognom>
+          <categoria>A</categoria>
+        </jugador>
+        <jugador dorsal="2">
+           <nom>Marta</nom>
+            <cognom>Puig</cognom>
+            <categoria>B</categoria>
+       </jugador>
+      </jugadors>
+    </equip>
+    <equip ID="11">
+      <nom>Smash FC</nom>
+      <jugadors>
+        <jugador dorsal="1">
+         <nom>Jordi</nom>
+          <cognom>Roca</cognom>
+          <categoria>A</categoria>
+        </jugador>
+        <jugador dorsal="2">
+          <nom>Laia</nom>
+          <cognom>Solà</cognom>
+          <categoria>A</categoria>
+        </jugador>
+        <jugador dorsal="3">
+          <nom>Pere</nom>
+          <cognom>Mas</cognom>
+          <categoria>B</categoria>
+        </jugador>
+      </jugadors>
+    </equip>
+  </equips>
+</tornei>
