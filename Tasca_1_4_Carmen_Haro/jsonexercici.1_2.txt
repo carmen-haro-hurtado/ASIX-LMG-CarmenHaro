@@ -52,7 +52,7 @@
           "importe": 92.8
         },
         {
-          "id": 1,
+          "id": 4,
           "referencia": "HD250G",
           "descripcion": "DISC DUR 250GB S-ATA 7200",
           "cantidad": 4,
