@@ -1,0 +1,358 @@
+/* 1. COLORES Y CONFIGURACIÓN GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Configuración general de las imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* 2. CABECERA Y MENÚ DE NAVEGACIÓN */
+
+/* Grid para colocar el logo y el menú */
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20px;
+}
+
+/* Distribución del logo y el nombre */
+.logo {
+    display: grid;
+    grid-template-columns: 55px auto;
+    align-items: center;
+    gap: 8px;
+    width: 200px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+/* Flexbox para alinear los enlaces del menú */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #168bd2;
+}
+
+/* 3. PRESENTACIÓN PRINCIPAL */
+
+/* Grid para dividir la sección en dos columnas */
+.presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    min-height: 320px;
+    background-color: #c8efff;
+}
+
+/* Imagen principal con tamaño limitado */
+.imagen-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-principal img {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Flexbox para centrar el texto de presentación */
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* 4. BOTONES */
+
+.boton {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #329fe5;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #167fc3;
+}
+
+/* 5. SECCIÓN SOBRE NOSOTROS */
+
+/* Grid para organizar la imagen y el texto */
+.sobre-mi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 35px;
+    padding: 40px;
+}
+
+.sobre-mi-titulo h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.sobre-mi-titulo img {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.sobre-mi-texto {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.sobre-mi-texto p {
+    margin-bottom: 15px;
+}
+
+.sobre-mi-texto ol {
+    margin: 15px 0 20px 25px;
+}
+
+/* 6. SECCIÓN DE SERVICIOS */
+
+.ofertas {
+    padding: 40px;
+    background-color: #c8efff;
+}
+
+.titulo-ofertas {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo-ofertas h2 {
+    margin-bottom: 10px;
+}
+
+/* Grid de 3 columnas: las tarjetas 2 y 3 ocupan el doble de ancho */
+.rejilla-ofertas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.oferta:nth-child(2),
+.oferta:nth-child(3) {
+    grid-column: span 2;
+}
+
+.oferta {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.oferta img {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.oferta h3 {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.oferta p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* 7. FORMULARIO DE CONTACTO */
+
+.contacto {
+    padding: 40px;
+}
+
+.contacto h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contacto form {
+    padding: 30px;
+    background-color: #eeeeee;
+    border-radius: 25px;
+}
+
+/* Grid para repartir los campos en dos columnas */
+.campos-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+/* Flexbox para apilar etiquetas y campos */
+.columna-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.columna-formulario input:not([type="radio"]):not([type="checkbox"]),
+.columna-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.columna-formulario input[type="radio"],
+.columna-formulario input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Grupos de opciones (radios y checkboxes) en fila */
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    border: none;
+}
+
+legend {
+    margin-bottom: 6px;
+}
+
+/* Botón de enviar centrado */
+.contacto form > .boton {
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* 8. PIE DE PÁGINA */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background-color: #c8efff;
+    font-size: 13px;
+}
+
+.enlaces-footer {
+    display: flex;
+    gap: 40px;
+}
+
+.enlaces-footer ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 9. ADAPTACIÓN A MÓVILES */
+
+@media (max-width: 700px) {
+
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .presentacion,
+    .sobre-mi {
+        grid-template-columns: 1fr;
+    }
+
+    /* Las tarjetas pasan a una sola columna */
+    .rejilla-ofertas {
+        grid-template-columns: 1fr;
+    }
+
+    .oferta:nth-child(n) {
+        grid-column: auto;
+    }
+
+    .campos-formulario {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .enlaces-footer {
+        justify-content: center;
+    }
+}
